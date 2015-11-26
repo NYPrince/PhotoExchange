@@ -9,11 +9,16 @@
 /* Begin PBXBuildFile section */
 		1D02C39C1BEBBF9800843DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02C39B1BEBBF9800843DED /* AppDelegate.swift */; };
 		1D02C39F1BEBBF9800843DED /* PhotoExchange.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1D02C39D1BEBBF9800843DED /* PhotoExchange.xcdatamodeld */; };
-		1D02C3A11BEBBF9800843DED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02C3A01BEBBF9800843DED /* ViewController.swift */; };
 		1D02C3A41BEBBF9800843DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1D02C3A21BEBBF9800843DED /* Main.storyboard */; };
 		1D02C3A61BEBBF9800843DED /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1D02C3A51BEBBF9800843DED /* Images.xcassets */; };
 		1D02C3A91BEBBF9800843DED /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1D02C3A71BEBBF9800843DED /* LaunchScreen.xib */; };
 		1D02C3B51BEBBF9800843DED /* PhotoExchangeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02C3B41BEBBF9800843DED /* PhotoExchangeTests.swift */; };
+		1D02C3BF1BEBC1AC00843DED /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02C3BE1BEBC1AC00843DED /* FeedViewController.swift */; };
+		1D02C3C11BEBC5CE00843DED /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02C3C01BEBC5CE00843DED /* FeedCell.swift */; };
+		1D02C3C31BEBE91F00843DED /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D02C3C21BEBE91F00843DED /* MobileCoreServices.framework */; };
+		1D02C3C51BEC113800843DED /* FeedItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D02C3C41BEC113800843DED /* FeedItem.swift */; };
+		1DD73A051BF151C100156438 /* FilterCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DD73A041BF151C100156438 /* FilterCell.swift */; };
+		1DFFA9411BEF03A700E06F27 /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DFFA9401BEF03A700E06F27 /* FilterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,13 +36,18 @@
 		1D02C39A1BEBBF9800843DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D02C39B1BEBBF9800843DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1D02C39E1BEBBF9800843DED /* PhotoExchange.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PhotoExchange.xcdatamodel; sourceTree = "<group>"; };
-		1D02C3A01BEBBF9800843DED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1D02C3A31BEBBF9800843DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1D02C3A51BEBBF9800843DED /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1D02C3A81BEBBF9800843DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		1D02C3AE1BEBBF9800843DED /* PhotoExchangeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PhotoExchangeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1D02C3B31BEBBF9800843DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1D02C3B41BEBBF9800843DED /* PhotoExchangeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoExchangeTests.swift; sourceTree = "<group>"; };
+		1D02C3BE1BEBC1AC00843DED /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		1D02C3C01BEBC5CE00843DED /* FeedCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
+		1D02C3C21BEBE91F00843DED /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		1D02C3C41BEC113800843DED /* FeedItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedItem.swift; sourceTree = "<group>"; };
+		1DD73A041BF151C100156438 /* FilterCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterCell.swift; sourceTree = "<group>"; };
+		1DFFA9401BEF03A700E06F27 /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -45,6 +55,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D02C3C31BEBE91F00843DED /* MobileCoreServices.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -80,11 +91,15 @@
 			isa = PBXGroup;
 			children = (
 				1D02C39B1BEBBF9800843DED /* AppDelegate.swift */,
-				1D02C3A01BEBBF9800843DED /* ViewController.swift */,
+				1D02C3BE1BEBC1AC00843DED /* FeedViewController.swift */,
+				1DD73A041BF151C100156438 /* FilterCell.swift */,
+				1DFFA9401BEF03A700E06F27 /* FilterViewController.swift */,
+				1D02C3C01BEBC5CE00843DED /* FeedCell.swift */,
 				1D02C3A21BEBBF9800843DED /* Main.storyboard */,
 				1D02C3A51BEBBF9800843DED /* Images.xcassets */,
 				1D02C3A71BEBBF9800843DED /* LaunchScreen.xib */,
 				1D02C39D1BEBBF9800843DED /* PhotoExchange.xcdatamodeld */,
+				1D02C3C41BEC113800843DED /* FeedItem.swift */,
 				1D02C3991BEBBF9800843DED /* Supporting Files */,
 			);
 			path = PhotoExchange;
@@ -93,6 +108,7 @@
 		1D02C3991BEBBF9800843DED /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				1D02C3C21BEBE91F00843DED /* MobileCoreServices.framework */,
 				1D02C39A1BEBBF9800843DED /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -159,6 +175,7 @@
 		1D02C38E1BEBBF9800843DED /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0620;
 				ORGANIZATIONNAME = "Rick Williams";
 				TargetAttributes = {
@@ -215,8 +232,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1D02C3A11BEBBF9800843DED /* ViewController.swift in Sources */,
+				1DD73A051BF151C100156438 /* FilterCell.swift in Sources */,
+				1DFFA9411BEF03A700E06F27 /* FilterViewController.swift in Sources */,
 				1D02C39C1BEBBF9800843DED /* AppDelegate.swift in Sources */,
+				1D02C3C11BEBC5CE00843DED /* FeedCell.swift in Sources */,
+				1D02C3BF1BEBC1AC00843DED /* FeedViewController.swift in Sources */,
+				1D02C3C51BEC113800843DED /* FeedItem.swift in Sources */,
 				1D02C39F1BEBBF9800843DED /* PhotoExchange.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,6 +432,7 @@
 				1D02C3BA1BEBBF9800843DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1D02C3BB1BEBBF9800843DED /* Build configuration list for PBXNativeTarget "PhotoExchangeTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +441,7 @@
 				1D02C3BD1BEBBF9800843DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
